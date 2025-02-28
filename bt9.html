@@ -1,120 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CatPhotoApp</title>
 </head>
 <body>
-    <form action="https://www.google.com/" method="get">
-        <table>
-            <tr>
-                <td>  <label for="name">Họ và tên:</label></td>
-                <td>  <input type="text" id="name" name="name" required> </td>
-            </tr>
-            <tr>
-                <td><label for="dob">Ngày sinh:</label> </td>
-                <td>   <input type="date" id="dob" name="dob" required></td>
-            </tr>
-            <tr> 
-                 <td> <label>Giới tính:</label></td>
-                <td><input type="radio" id="male" name="gender" value="Nam">
-                    <label for="male">Nam</label>
-                    <input type="radio" id="female" name="gender" value="Nữ">
-                    <label for="female">Nữ</label></td>
-            </tr>
-            <tr>
-                <td> <label for="phone">Số điện thoại:</label> </td>
-                <td> <input type="tel" id="phone" name="phone"></td>
-            </tr>
-            <tr>
-                <td>     <label for="email">Email:</label></td>
-                <td>  <input type="email" id="email" name="email"></td>
-            </tr>
-            <tr>
-                <td>    <label for="address">Địa chỉ thường trú:</label><br> </td>
-                <td> <textarea id="address" name="address" rows="3" cols="40"></textarea></td>
-            </tr>
-            <tr>
-                <td><label for="role">Vai trò trong nhóm:</label></td>
-                <td>
-                  <select id="role" name="role">
-                    <option value="thanhVien">Thành viên</option>
-                    <option value="quanLy">Quản lý</option>
-                  </select>
-                </td>
-              </tr>
-          
-              <tr>
-                <td><label for="hobby">Sở thích:</label></td>
-                <td><input type="text" id="hobby" name="hobby"></td>
-              </tr>
-          
-              <tr>
-                <td><label for="skill">Kỹ năng:</label></td>
-                <td><input type="text" id="skill" name="skill"></td>
-              </tr>
-          
-              <tr>
-                <td>Thời gian rảnh:</td>
-                <td>
-                  <input type="checkbox" id="sang" name="time[]" value="Sáng">
-                  <label for="sang">Sáng</label>
-          
-                  <input type="checkbox" id="chieu" name="time[]" value="Chiều">
-                  <label for="chieu">Chiều</label>
-          
-                  <input type="checkbox" id="toi" name="time[]" value="Tối">
-                  <label for="toi">Tối</label>
-                </td>
-              </tr>
-          
-          
-              <tr>
-                <td><label for="reason">Lý do tham gia nhóm:</label></td>
-                <td>
-                  <textarea id="reason" name="reason" rows="3" cols="30"></textarea>
-                </td>
-              </tr>
-         
-              <tr>
-                <td><label for="favoriteColor">Màu yêu thích:</label></td>
-                <td>
-                  <input type="color" id="favoriteColor" name="favoriteColor"value="#0000033" >
-                </td>
-              </tr>
-          
-              <tr>
-                <td>Đăng ký nhận bản tin:</td>
-                <td>
-                  <input type="checkbox" id="newsletter" name="newsletter" value="Co">
-                  <label for="newsletter">Có</label>
-                </td>
-              </tr>
-          
-         
-              <tr>
-                <td>Nhận thông báo qua email:</td>
-                <td>
-                  <input type="radio" id="email" name="notification" value="Email">
-                  <label for="email">Email</label>
-          
-                  <input type="radio" id="sms" name="notification" value="SMS">
-                  <label for="sms">SMS</label>
-                </td>
-              </tr>
-          
-         
-              <tr>
-                <td colspan="2" style="text-align: center;">
-                  <button type="submit">Đăng ký thành viên</button>
-                </td>
-              </tr>
-    
 
-    
+    <h1>CatPhotoApp</h1>
 
+    <h2>Cat Photos</h2>
+    <p>Everyone loves <a href="https://th.bing.com/th/id/OIP.oIVL8OUcfSv6X9HnRi0NJAHaEa?w=297&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7">cat cats</a> online!</p>
+    <p>See more <a href="#">cat photos</a> in our gallery.</p>
+    
+    <img src="https://th.bing.com/th?id=OIP.SUJl86Owb7cfRlLFK-p2QgHaE_&w=304&h=205&c=8&rs=1&qlt=90&o=6&cb=15&dpr=1.3&pid=3.1&rm=2" alt="Hình ảnh mèo lật ngửa">
+
+    <h2>Cat Lists</h2>
+
+    <h3>Things cats love:</h3>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Lasagna_%281%29.jpg/320px-Lasagna_%281%29.jpg" alt="Hình ảnh lasagna">
+    <p><em>Cats love lasagna.</em></p>
+
+    <h3>Top 3 things cats hate:</h3>
+    <ol>
+        <li>flea treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+    </ol>
+
+    <img src="https://placekitten.com/320/200" alt="Hình ảnh nhiều mèo nhỏ">
+
+    <p>Cats <b>hate</b> other cats.</p>
+    
+    <h2>Cat Breed</h2>
+    <table border="1">
+        <tr>
+            <th>Breed</th>
+            <th>Location of origin</th>
+            <th>Type</th>
+            <th>Body type</th>
+            <th>Coat type and length</th>
+            <th>Coat pattern</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td><a href="#">Abyssinian</a></td>
+            <td>Unspecified, but somewhere in Afro-Asia, likely Ethiopia</td>
+            <td>Natural</td>
+            <td>Semi-foreign</td>
+            <td>Short</td>
+            <td>Ticked tabby</td>
+            <td><img src="data:image/jpeg;base64,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" alt="Abyssinian cat" height="100" width="100" ></td>
+        </tr>
+        <tr>
+            <td><a href="#">Aegean</a></td>
+            <td>Greece</td>
+            <td>Natural</td>
+            <td>Moderate</td>
+            <td>Semi-long</td>
+            <td>Multi-color</td>
+            <td><img src="https://th.bing.com/th?id=OIP.g7yzPrZa1PLFD6xHLMGqKwHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&cb=15&dpr=1.3&pid=3.1&rm=2" alt="Aegean cat"  height="100" width="100"></td>
+        </tr>
+        <tr>
+            <td><a href="#">American Bobtail</a></td>
+            <td>United States</td>
+            <td>Mutation of shortened tail</td>
+            <td>Cobby</td>
+            <td>Semi-long</td>
+            <td>All</td>
+            <td><img src="https://th.bing.com/th?id=OIP.ZdNpncdqDrEwcMEoV2GGWQHaIT&w=235&h=264&c=8&rs=1&qlt=90&o=6&cb=15&dpr=1.3&pid=3.1&rm=2" alt="American Bobtail cat"  height="100" width="100"></td>
+        </tr>
+        <tr>
+            <td><a href="#">American Curl</a></td>
+            <td>United States</td>
+            <td>Mutation</td>
+            <td>Semi-foreign</td>
+            <td>Semi-long</td>
+            <td>All</td>
+            <td><img src="https://th.bing.com/th?id=OIP.bauF0WJrKjaqWIxErVv-gwHaHI&w=254&h=245&c=8&rs=1&qlt=90&o=6&cb=15&dpr=1.3&pid=3.1&rm=2" alt="American Curl cat"  height="100" width="100"></td>
+        </tr>
+        <tr>
+            <td><a href="#">American Ringtail</a></td>
+            <td>United States</td>
+            <td>Mutation</td>
+            <td>Foreign</td>
+            <td>Semi-long</td>
+            <td>All</td>
+            <td><img src="https://th.bing.com/th/id/OIP.KNDVcMe0UQi-0Xp4IjftDAHaGq?w=222&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="American Ringtail cat"  height="100" width="100"></td>
+        </tr>
     </table>
-        </form>
+
+    <h2>Cat Form</h2>
+    <form>
+        <fieldset>
+            <p>Is your cat an indoor or outdoor cat?</p>
+            <input id="in" type="radio" name="indoor-outdoor" > 
+            <label for="in">Indoor</label> 
+    
+            <input id="out" type= "radio" name="indoor-outdoor" >
+             <label for="out">Outdoor</label>
+        </fieldset>
+        <fieldset>
+            <p>What's your cat's personality?</p>
+            <input id="1" type="checkbox" name="personality" value="living"> 
+            <label for="1">Living</label>
+    
+            <input id="2" type="checkbox" name="personality" value="lazy">
+            <label for="2">Lazy</label>
+    
+            <input id="3" type="checkbox" name="personality" value="energetic"> 
+            <label for="3">Energetic</label>
+        </fieldset>
+        <input type="url" id="cat-photo" placeholder="Enter URL here">
+        <p><button type="submit">Submit</button></p>
+    </form>
+
+    <p>No Copyright - <a href="#">okickic.cn</a></p>
+
 </body>
 </html>
